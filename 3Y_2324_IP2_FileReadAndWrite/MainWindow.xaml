@@ -1,0 +1,15 @@
+﻿<Window x:Class="_3Y_2324_IP2_FileReadAndWrite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3Y_2324_IP2_FileReadAndWrite"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="WidthAndHeight">
+    <Grid>
+        <TextBox x:Name="tbFilePath" HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="780" FontSize="24" TextChanged="tbFilePath_TextChanged"/>
+        <Button x:Name="btnIOManage" Content="Button" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" FontSize="24" IsEnabled="False" Click="btnIOManage_Click"/>
+        <TextBox x:Name="tbPlaceToReadWrite" HorizontalAlignment="Center" Margin="0,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="334" FontSize="24" AcceptsReturn="True"/>
+
+    </Grid>
+</Window>
